@@ -1,7 +1,7 @@
 import ItemCount from '../ItemCount/ItemCount';
 import './Item.css'
 
-const Item = ({ band, album, cover, stock }) => {
+const Item = ({ band, album, price, cover, stock }) => {
 
     const handleOnAdd = (quantity) => {
         alert(`Se agregaron ${quantity} productos `)
@@ -14,6 +14,8 @@ const Item = ({ band, album, cover, stock }) => {
             </picture>
             <p className='band'>{band}</p>
             <p className='album'>{album}</p>
+            <p className='price'>$ {price}</p>
+            <p className='stock'>Stock disponible <span>{stock}</span> unidades</p>
             <button className='detalles'>Ver detalle</button>
             <ItemCount initial={0} stock={stock} onAdd={handleOnAdd} />
         </section>
