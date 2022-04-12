@@ -6,7 +6,7 @@ const products = [
         price: 1200,
         cover: 'https://cdn.oldskull.net/wp-content/uploads/2015/01/Rock_Covers-ilustracion-oldskull-15.jpg',
         stock: 15,
-        description: 'Descripcion de A'
+        description: 'Discazo!'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const products = [
         price: 800,
         cover: 'https://cdn.oldskull.net/wp-content/uploads/2015/01/Rock_Covers-ilustracion-oldskull-02-880x879.jpg',
         stock: 10,
-        description: 'Descripcion de B'
+        description: 'Otro discazo!'
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const products = [
         price: 500,
         cover: 'https://cdn.oldskull.net/wp-content/uploads/2015/01/Rock_Covers-ilustracion-oldskull-20.jpg',
         stock: 5,
-        description: 'Descripcion de C'
+        description: 'Otro discazo más'
     }
 ]
 

@@ -14,8 +14,6 @@ section {
     margin: 0 40px;
 }
 
-picture {}
-
 picture img {
     width: 300px;
     border-radius: 5px;
@@ -35,6 +33,7 @@ picture img {
 }
 
 .price {
+    text-align: center !important;
     font-size: 18px;
     font-weight: 700;
     padding: 10px;
