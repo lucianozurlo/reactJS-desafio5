@@ -1,7 +1,7 @@
 import ItemCount from '../ItemCount/ItemCount';
-import './Item.css'
+import './ItemDetail.css'
 
-const Item = ({ band, album, price, cover, stock }) => {
+const ItemDetail = ({ band, album, price, cover, stock }) => {
 
     const handleOnAdd = (quantity) => {
         alert(`Se agregaron ${quantity} productos`)
@@ -22,4 +22,4 @@ const Item = ({ band, album, price, cover, stock }) => {
     )
 }
 
-export default Item
+export default ItemDetail
